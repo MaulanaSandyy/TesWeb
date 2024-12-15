@@ -17,7 +17,7 @@ document.getElementById('okButton').addEventListener('click', function() {
   })
   .then(response => response.json())
   .then(data => {
-    console.log('Data berhasil dikirim:', data);
+    console.log('berhasil', data);
   })
   .catch(error => {
     console.error('Terjadi kesalahan:', error);
